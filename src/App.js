@@ -1,15 +1,19 @@
-import logo from './logo.svg';
+import logo from './logo.png';
+import Dictionary from "./Dictionary";
 import './App.css';
 
-function App() {
+
+export default function App() {
   return (
+    <div className="container">
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello React</h1>
-      </header>
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
+        <Dictionary />
+      </div>
+    
+      <footer>Coded by Mia Ranaivo, Open sourced on Github</footer>
     </div>
   );
 }
-
-export default App;
