@@ -28,3 +28,9 @@ em {
 footer {
   font-size: 9px;
 }
+
+.quote {
+  color: #8c52ff;
+  font-size: 9px;
+  position: center;
+}
