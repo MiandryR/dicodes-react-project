@@ -1,4 +1,30 @@
+/*General colours
+Main: #794c74
+Neon: #8c52ff
+Perso: #00917c
+*/
+
 .App-logo {
   margin: 0 auto;
   width: 200px;
+}
+
+.word {
+  text-transform: uppercase;
+  color: #794c74;
+}
+
+em {
+  text-align: center;
+  font-size: 11px;
+}
+
+.Linkedin,
+.GitHub {
+  color: #00917c;
+  text-align: center;
+}
+
+footer {
+  font-size: 9px;
 }
