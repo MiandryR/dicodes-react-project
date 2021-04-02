@@ -12,10 +12,10 @@ export default function App() {
       <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <br />
-          <quote className="quote">Words - so innocent and powerless as they are, as standing in a dictionary, how potent for good and evil they become in the hands of one who knows how to combine them.
+          <p id="quote">"Words - so innocent and powerless as they are, as standing in a dictionary, <br/> how potent for good and evil they become in the hands of one who knows how to combine them."
             <br />
-            <em>Nathaniel Hawthorne</em>
-          </quote>
+            - Nathaniel Hawthorne -
+          </p>
         </header>
         <br/> 
         <Dictionary />
