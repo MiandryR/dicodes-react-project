@@ -66,3 +66,7 @@ ul.Synonyms {
   grid-column-gap: 2px;
   column-gap: 2px;
 }
+
+div #dictionary {
+  text-align: center;
+}

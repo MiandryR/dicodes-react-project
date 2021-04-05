@@ -18,7 +18,7 @@ export default function App() {
           </p>
         </header>
         <br/> 
-        <Dictionary />
+        <Dictionary defaultKeyword="success"/>
       </div>
     <Footer />
     </div>
