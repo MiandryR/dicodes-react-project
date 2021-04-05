@@ -3,8 +3,8 @@ import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
 
-export default function Dictionary() {
-    let [keyword, setKeyword] = useState("");
+export default function Dictionary(props) {
+    let [keyword, setKeyword] = useState(props.defaultKeyword);
     let [results, setResults] = useState(null);
     let [loaded, setLoaded] = useState(false);
     let [photos, setPhotos] = useState(null);
@@ -43,11 +43,11 @@ export default function Dictionary() {
     if (loaded) {
         return (
             <div className="Dictionary">
-                <h5>The meaning of:</h5>
+                <div className="form">
                 <form onSubmit={handleSubmit}>
-                    <input type="search" placeholder="Enter a word" onChange={handleKeyword} />
-                </form>
-                <div className="hint">i.e beta, life, exchange, submarine, warfare </div>
+                    <input type="search" placeholder="Enter a word to look up" onChange={handleKeyword} />
+                    </form>
+                </div>
                 <Results results={results} />
                 <Photos photos={photos} />
             </div>

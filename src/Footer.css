@@ -1,0 +1,10 @@
+footer {
+  font-size: 9px;
+  text-align: -webkit-center;
+}
+
+.Linkedin,
+.GitHub {
+  color: #00917c;
+  text-align: center;
+}

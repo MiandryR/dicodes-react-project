@@ -13,13 +13,13 @@ export default function Results(props) {
                     {props.results.word}
                 </h1>
             
-                {props.results.phonetics.map(function (phonetics, index) {
+                <span id="phonetic">{props.results.phonetics.map(function (phonetics, index) {
                     return (
                         <div key={index}>
                             <Phonetics phonetics={phonetics} />
                         </div>
                     )
-                })}
+                })}</span> 
                 </section>
                 <br />
                                     {props.results.meanings.map(function (meaning, index) {

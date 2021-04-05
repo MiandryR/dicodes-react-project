@@ -3,7 +3,7 @@ Main: #794c74
 Neon: #8c52ff
 Perso: #00917c
 */
-
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
 .App-logo {
   margin: 0 auto;
   width: 200px;
@@ -12,21 +12,7 @@ Perso: #00917c
 .word {
   text-transform: uppercase;
   color: #794c74;
-}
-
-em {
-  text-align: center;
-  font-size: 11px;
-}
-
-.Linkedin,
-.GitHub {
-  color: #00917c;
-  text-align: center;
-}
-
-footer {
-  font-size: 9px;
+  font-family: "New Tegomin", serif;
 }
 
 p#quote {
@@ -36,37 +22,9 @@ p#quote {
   text-align: -webkit-right;
 }
 
-form,
-footer {
-  text-align: -webkit-center;
-  margin: 30px auto;
-}
-
-audio.react-audio-player {
-  margin: 40px 0px;
-}
-
-form #input {
-  width: 308px;
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+input {
+  width: 500px;
   height: 44px;
-}
-
-ul {
-  list-style-type: none;
-}
-ul.Synonyms {
-  font-size: 11px;
-  -moz-column-count: 3;
-  -moz-column-gap: 2px;
-  column-count: 3;
-  grid-column-gap: 2px;
-  column-gap: 2px;
-}
-
-div #dictionary {
-  text-align: center;
+  padding: 5px auto;
+  border-radius: 7px;
 }

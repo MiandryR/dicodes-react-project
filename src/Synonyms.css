@@ -1,0 +1,19 @@
+#title {
+  font-weight: bold;
+  font-size: 11px;
+}
+#synonyms-list {
+  list-style-type: none;
+  font-size: 12px;
+  -moz-column-count: 3;
+  -moz-column-gap: 2px;
+  column-count: 3;
+  grid-column-gap: 2px;
+  column-gap: 2px;
+}
+
+span#example {
+  color: gray;
+  font-size: 11px;
+  font-style: italic;
+}

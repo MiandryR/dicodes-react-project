@@ -6,3 +6,31 @@ section {
   -webkit-box-shadow: 3px 5px 10px 5px #794c74;
   box-shadow: 3px 5px 10px 5px #794c74;
 }
+
+#phonetic {
+  color: lightgray;
+}
+
+audio.react-audio-player {
+  width: 150px;
+  margin: 40px 0px;
+}
+
+form,
+footer {
+  text-align: -webkit-center;
+  margin: 30px auto;
+}
+
+div#hint,
+h5.question {
+  text-align: center;
+  font-family: "New Tegomin", serif;
+  font-size: 12px;
+}
+
+h5.question {
+  color: #794c74;
+  text-shadow: 0.5px 0.25px grey;
+  font-size: 30px;
+}
