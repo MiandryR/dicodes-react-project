@@ -1,3 +1,8 @@
 div #dictionary {
   text-align: center;
 }
+
+input {
+  width: -webkit-fill-available;
+  margin: 15px;
+}
