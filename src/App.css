@@ -23,7 +23,7 @@ p#quote {
 }
 
 input {
-  width: 500px;
+  width: -webkit-fill-available;
   height: 44px;
   padding: 5px auto;
   border-radius: 7px;
